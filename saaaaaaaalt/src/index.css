@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  color: rgb(42, 42, 42);
+}
+
+.container {
+  height: 100%;
+  margin: 50px;
+  text-align: center;
+}
+
+.image {
+  max-width: 500px;
+  border-radius: 20px;
+}
+
+#login-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+#login-container > input {
+  border: none;
+  background-color: #e9e9e9;
+  padding: 10px 15px;
+  color: rgb(42, 42, 42);
+}
+
+#login-container > input:focus {
+  background-color: #e4e4e4;
+}
+
+#login-container > button {
+  background-color: #cacaca;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.success {
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+  padding: 5px;
+  background-color: rgb(210, 255, 210);
+  border-radius: 5px;
+}
